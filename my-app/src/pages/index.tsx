@@ -1,6 +1,6 @@
 import { productservieses } from "./servieses/servieses";
 import Link from "next/link";
-import "./home.css";
+
 
 export async function getServerSideProps() {
   try {
