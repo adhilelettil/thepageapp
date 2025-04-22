@@ -52,7 +52,7 @@ export default function productcard(props) {
 
       <div className={styles.productlist}>
         {filteredProducts.map((item) => (
-          <div key={item.id}>
+          <div key={item.id} >
             <Link href={`/Product/${item.documentId}`}>
               <div className={styles.imagee}>
                 <img

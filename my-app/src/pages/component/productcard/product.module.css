@@ -1,7 +1,7 @@
 .imagee {
   background-color: white;
   border-radius: 10px;
-  width: 220px;
+  width: 200px;
   height: 300px;
   margin: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -33,7 +33,7 @@
   margin: 10px;
   padding: 20px;
   height: 210px;
-  width: 220px;
+  width: 200px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
@@ -52,4 +52,31 @@
 .navItem {
   margin-left: 1000px;
   margin-top: -50px;
+}
+
+/* Responsive Design for Phones */
+@media (max-width: 768px) {
+  .imagee {
+    width: 150px; /* Smaller width for phones */
+    height: 200px; /* Smaller height for phones */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .content {
+    height: 180px; /* Adjust content height */
+    width: 150px; /* Adjust content width */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .price {
+    font-size: 30px; /* Smaller font size for price */
+  }
+
+  .title {
+    font-size: 12px; /* Smaller font size for title */
+  }
+
+  .productlist {
+    padding: 20px; /* Reduce padding for phones */
+  }
 }
