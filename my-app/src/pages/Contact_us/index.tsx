@@ -1,13 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './contact.css';
+import styles from './contact.module.css';
 
 export default function Contact_us() {
   return (
     <div className="container mt-4">
       <div className="row align-items-center mb-5">
         {/* Contact Image Section */}
-        <div className="col-md-6 contact-image">
+        <div className={`col-md-6 ${styles.contactImage}`}>
           <img
             src="/contact.avif"
             alt="Contact Us Illustration"
@@ -16,7 +16,7 @@ export default function Contact_us() {
         </div>
 
         {/* Contact Text Section */}
-        <div className="col-md-6 contact-text">
+        <div className={`col-md-6 ${styles.contactText}`}>
           <h1>Contact Us</h1>
           <b>
             If you encounter any issues, please don't hesitate to contact us.
@@ -32,14 +32,14 @@ export default function Contact_us() {
       {/* Contact Form Section */}
       <div className="row">
         <div className="col-12">
-          <form className="contact-form">
+          <form className={styles.contactForm}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
                 Name
               </label>
               <input
                 type="text"
-                className="form-control"
+                className={styles.contactInput}
                 id="name"
                 placeholder="Enter your name"
                 required
@@ -51,7 +51,7 @@ export default function Contact_us() {
               </label>
               <input
                 type="email"
-                className="form-control"
+                className={styles.contactInput}
                 id="email"
                 placeholder="Enter your email"
                 required
@@ -62,14 +62,14 @@ export default function Contact_us() {
                 Message
               </label>
               <textarea
-                className="form-control"
+                className={styles.contactTextarea}
                 id="message"
                 rows={4}
                 placeholder="Enter your message"
                 required
               ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className={styles.contactButton}>
               Submit
             </button>
           </form>
