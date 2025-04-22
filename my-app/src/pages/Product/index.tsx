@@ -1,4 +1,4 @@
-import { productservieses } from '../servieses/servieses';
+import { productservieses } from '../../servieses/servieses';
 import Productcard from '../component/productcard/product';
 
 export async function getServerSideProps(context: any) {

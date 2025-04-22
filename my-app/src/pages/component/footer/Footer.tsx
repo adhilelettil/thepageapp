@@ -3,10 +3,9 @@ import styles from './footer.module.css';
 
 export default function Footer() {
   return (
-    <div className={`container-fluid ${styles.footerpart}`}>
+    <div className={`${styles.footerpart} container-fluid`}>
       <footer className={styles.footer}>
         <div className={styles.footerTop}>
-          {/* ABOUT Section */}
           <div className={styles.footerLeft}>
             <h3 className={styles.footerHeading}>ABOUT</h3>
             <ul className={styles.footerLinks}>
@@ -18,8 +17,6 @@ export default function Footer() {
               <li><a href="#">Corporate Information</a></li>
             </ul>
           </div>
-
-          {/* GROUP COMPANIES Section */}
           <div className={styles.footerMiddle}>
             <h3 className={styles.footerHeading}>GROUP COMPANIES</h3>
             <ul className={styles.footerLinks}>
@@ -28,8 +25,6 @@ export default function Footer() {
               <li><a href="#">Shopsy</a></li>
             </ul>
           </div>
-
-          {/* HELP Section */}
           <div className={styles.footerMiddle}>
             <h3 className={styles.footerHeading}>HELP</h3>
             <ul className={styles.footerLinks}>
@@ -40,8 +35,6 @@ export default function Footer() {
               <li><a href="#">Sitemap</a></li>
             </ul>
           </div>
-
-          {/* CONSUMER POLICY Section */}
           <div className={styles.footerMiddle}>
             <h3 className={styles.footerHeading}>CONSUMER POLICY</h3>
             <ul className={styles.footerLinks}>
@@ -54,8 +47,6 @@ export default function Footer() {
               <li><a href="#">EPR Compliance</a></li>
             </ul>
           </div>
-
-          {/* ABOUT US Section */}
           <div className={styles.footerRight}>
             <h3 className={styles.footerHeading}>ABOUT US</h3>
             <p>EZBUY Internet Private Limited,</p>
@@ -73,8 +64,6 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-
-        {/* Footer Bottom */}
         <div className={styles.footerBottom}>
           <ul className={styles.footerBottomLinks}>
             <li><a href="#"><i className="fas fa-shopping-bag"></i> Become a Seller</a></li>

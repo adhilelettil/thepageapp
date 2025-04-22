@@ -1,4 +1,4 @@
-import { productservieses } from "./servieses/servieses";
+import { productservieses } from "../servieses/servieses";
 import Link from "next/link";
 
 

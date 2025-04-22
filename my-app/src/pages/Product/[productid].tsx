@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { productservieses } from "../servieses/servieses"; // Corrected the import path
+import { productservieses } from "../../servieses/servieses"; // Corrected the import path
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
