@@ -6,7 +6,7 @@ import Input from '../input/Input';
 
 export default function productcard(props) {
   const [sproducts, setfilterproduct] = useState('');
-  const product = props.product;
+  const product = props.product || []; // Fallback to an empty array if product is undefined
   const filteredProducts = product.filter((item) =>
     item.name.toLowerCase().includes(sproducts)
   );
