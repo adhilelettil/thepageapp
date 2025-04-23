@@ -57,26 +57,26 @@
 /* Responsive Design for Phones */
 @media (max-width: 768px) {
   .imagee {
-    width: 150px; /* Smaller width for phones */
-    height: 200px; /* Smaller height for phones */
-    padding: 10px; /* Adjust padding */
+    width: 150px; 
+    height: 190px; 
+    padding: 10px; 
   }
 
   .content {
-    height: 180px; /* Adjust content height */
-    width: 150px; /* Adjust content width */
-    padding: 10px; /* Adjust padding */
+    height: 180px; 
+    width: 150px; 
+    padding: 10px;
   }
 
   .price {
-    font-size: 30px; /* Smaller font size for price */
+    font-size: 30px;
   }
 
   .title {
-    font-size: 12px; /* Smaller font size for title */
+    font-size: 12px; 
   }
 
   .productlist {
-    padding: 20px; /* Reduce padding for phones */
+    padding: 20px; 
   }
 }

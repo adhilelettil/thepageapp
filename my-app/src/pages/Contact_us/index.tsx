@@ -6,7 +6,7 @@ export default function Contact_us() {
   return (
     <div className="container mt-4">
       <div className="row align-items-center mb-5">
-        {/* Contact Image Section */}
+       
         <div className={`col-md-6 ${styles.contactImage}`}>
           <img
             src="/contact.avif"
@@ -15,7 +15,7 @@ export default function Contact_us() {
           />
         </div>
 
-        {/* Contact Text Section */}
+      
         <div className={`col-md-6 ${styles.contactText}`}>
           <h1>Contact Us</h1>
           <b>
@@ -29,7 +29,7 @@ export default function Contact_us() {
         </div>
       </div>
 
-      {/* Contact Form Section */}
+      \
       <div className="row">
         <div className="col-12">
           <form className={styles.contactForm}>

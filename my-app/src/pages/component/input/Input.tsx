@@ -13,7 +13,7 @@ export default function Input(props: InputProps) {
   useEffect(() => {
     const debounce = setTimeout(() => {
       searchProduct(searchTerm);
-    }, 300); // Debounce delay of 300ms
+    }, 300); 
 
     return () => clearTimeout(debounce);
   }, [searchTerm, searchProduct]);
@@ -30,7 +30,7 @@ export default function Input(props: InputProps) {
         type="text"
         placeholder="Search"
         value={searchTerm}
-        style={{ maxWidth: "500px" }} // Optional: Limit the width for larger screens
+        style={{ maxWidth: "500px" }} 
       />
     </div>
   );

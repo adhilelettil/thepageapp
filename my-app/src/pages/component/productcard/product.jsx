@@ -1,12 +1,12 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import styles from './product.module.css'; // Import the CSS Module
+import styles from './product.module.css'; 
 import Input from '../input/Input';
 
 export default function productcard(props) {
   const [sproducts, setfilterproduct] = useState('');
-  const product = props.product || []; // Fallback to an empty array if product is undefined
+  const product = props.product || []; 
   const filteredProducts = product.filter((item) =>
     item.name.toLowerCase().includes(sproducts)
   );

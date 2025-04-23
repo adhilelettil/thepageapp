@@ -6,7 +6,7 @@ export default function About_us() {
   return (
     <div className={`container mt-4 ${styles.container}`}>
       <div className={`row align-items-center mb-5 ${styles.row}`}>
-        {/* CEO Section */}
+        
         <div className={`col-md-6 ${styles.imageContainer}`}>
           <img
             src="/1 (1).jpg"
@@ -30,7 +30,7 @@ export default function About_us() {
       </div>
 
       <div className={`row align-items-center ${styles.row}`}>
-        {/* Maintenance Section */}
+       
         <div className={`col-md-6 order-md-2 ${styles.imageContainer}`}>
           <img
             src="/0.jpg"
